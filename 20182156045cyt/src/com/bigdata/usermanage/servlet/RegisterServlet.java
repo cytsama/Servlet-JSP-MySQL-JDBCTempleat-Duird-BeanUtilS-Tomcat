@@ -21,10 +21,10 @@ public class RegisterServlet extends HttpServlet {
         //设置编码
         request.setCharacterEncoding("utf-8");
         //service查询
-        String img = request.getParameter("img");
+        //String img = request.getParameter("img");
         //创建session对象
-        HttpSession session = request.getSession();
-        String code = (String)session.getAttribute("code");
+        //HttpSession session = request.getSession();
+        //String code = (String)session.getAttribute("code");
         Map<String, String[]> map = request.getParameterMap();
         //封装对象
         User user = new User();
